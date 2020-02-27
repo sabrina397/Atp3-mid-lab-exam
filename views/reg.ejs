@@ -1,0 +1,29 @@
+  <form action="register" method="post">
+    <div class="container">
+      <h1>Registration</h1>
+      <hr>
+      <label for=""><b>Name</b></label>
+      <input type="text" placeholder="Enter name" name="name" ><br>
+
+      <label for=""><b>Type</b></label>
+      <input type="radio" id="admin" name="type" value="admin">
+      <label for="admin">Admin</label>
+      <input type="radio" id="moderator" name="gender" value="moderator">
+      <label for="moderator">Moderator</label><br>
+
+      <label for=""><b>Contact Number</b></label>
+      <input type="text" placeholder="Enter Number" name="contact" ><br>
+  
+      <label for="username"><b>Username</b></label>
+      <input type="text" placeholder="Enter username" name="username" ><br>
+  
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="password" ><br>
+      
+      <button type="submit" class="registerbtn" name="register">Register</button>
+    </div>
+  
+    <div class="container signin">
+      <p>Already have an account? <a href="/login">Sign in</a>.</p>
+    </div>
+  </form>
